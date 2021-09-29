@@ -15,19 +15,16 @@ public class Mainhash {
         System.out.println(hmJugadores);
         System.out.println("el equipo de recio es "+hmJugadores.get("Recio"));
         System.out.println("el equipo de recio es "+hmJugadores.get("RECIO"));
+
+        //System.out.println(hmJugadores.values());
         // escribir los jugadores del Madrid
+        //utilizamos un metodo que devuelva las claves de valor
 
-        //String s = getKeysFromValue("",hmJugadores);
+        System.out.println(getKeysFromValue( "Madrid",hmJugadores));;
     }
-    {
-        private static ArrayList<String> getKeysFromValue(String sValue,HashMap<String, String>)
-    }
-
-
-
-
-
-
-
+        private static ArrayList<String> getKeysFromValue(String sValue, HashMap<String, String> hmjugadores)
+        {
+            return null;
+        }
 
 }
