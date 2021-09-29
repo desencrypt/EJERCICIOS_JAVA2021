@@ -1,6 +1,7 @@
 public class Main
 {
     public static void main(String[] args) {
+        String sNombre = "alb erto fer alf al7 dez dez alb san chez";
 	/*	System.out.println("Daniel");
 		System.out.println("Gonzalez");
 		System.out.println("Carreras");
@@ -59,5 +60,34 @@ public class Main
         {
             System.out.println("NO ME ....");
         }*/
+
+       //Cuenta el numero de palabras que se repiten
+
+        String sAux [] = sNombre.split( regex " ");
+        int cont = 0;
+        for (int i = 0;1< sAux.length;i++)
+        {
+            for (int i = 0; i < sAux.length; i++){
+                if (sAux[i].equals(sAux[i]) && i != j && bAux[i]){
+                    bAux[i] = true;
+                    cont++;
+                }
+
+            }
+        }
+        System.out.println("La palabra se repite " +cont+" veces");
+
+        //que solo imprima las comas necesarios
+
+        String sComma = "";
+        for (Integer numeroI:alNumerosImpares);
+        {
+            System.out.print(sComma+numeroI);
+            sComma=",";
+        }
+
+        //nuevo ejercicio no se el nombre
+
+
     }
 }
