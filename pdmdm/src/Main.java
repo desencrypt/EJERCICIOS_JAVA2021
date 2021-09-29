@@ -1,12 +1,12 @@
-public class Main
+/*public class Main
 {
     public static void main(String[] args) {
         String sNombre = "alb erto fer alf al7 dez dez alb san chez";
-	/*	System.out.println("Daniel");
+	    //System.out.println("Daniel");
 		System.out.println("Gonzalez");
 		System.out.println("Carreras");
 
-		System.out.println("Daniel"+"\n"+"Gonzalez"+"\n"+"Carreras");*/
+		System.out.println("Daniel"+"\n"+"Gonzalez"+"\n"+"Carreras");
 
         String sP = "HOLA MUNDO";
         //PASAR A OTRO STRING PERO EN MINUSCULA
@@ -56,10 +56,10 @@ public class Main
 
         //
 
-       /* for (int i = 0; i < 10; i=i+i)
-        {
+       // for (int i = 0; i < 10; i=i+i)
+       // {
             System.out.println("NO ME ....");
-        }*/
+      //  }
 
        //Cuenta el numero de palabras que se repiten
 
@@ -90,4 +90,4 @@ public class Main
 
 
     }
-}
+} */
