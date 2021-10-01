@@ -46,7 +46,7 @@ public class Mainhash {
         //clases/objetos, los introducidos en arraylist y hash
     }
 
-    private static int getNumberNacFromEquipo(String sEquipo, String SPais, HashMap<String, String> hmJugadoresLocal, HashMap<String, String> hmNacionalidadesLocal)
+    private static int getNumberNacFromEquipo(String sEquipo, String sPais, HashMap<String, String> hmJugadoresLocal, HashMap<String, String> hmNacionalidadesLocal)
     {
         ArrayList<String> alJugadores = getKeysFromValue(sEquipo,hmJugadoresLocal);
         int intContador = 0;
