@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="fsg">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Desarrollo interfaces/LIBRERIAS/fsg.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Desarrollo interfaces/LIBRERIAS/fsg.jar!/" />
+    </SOURCES>
+  </library>
+</component>

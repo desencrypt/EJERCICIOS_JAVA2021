@@ -1,93 +1,51 @@
-/*public class Main
-{
-    public static void main(String[] args) {
-        String sNombre = "alb erto fer alf al7 dez dez alb san chez";
-	    //System.out.println("Daniel");
-		System.out.println("Gonzalez");
-		System.out.println("Carreras");
+public class Main {
 
-		System.out.println("Daniel"+"\n"+"Gonzalez"+"\n"+"Carreras");
+    public static void main(String[] args) {
+        // write your code here
+        boolean bOk = true;
+        boolean bOk2 = false;
+
+        char cCar1 = 'e';
+        String cCar2 = "e";
+
+        boolean bb1;
+        Boolean bb2;
+
+        bb1 = true;
+        //bb2 = new Boolean(true);
+
+        String sStr1 = "ju ju ju";
+        String sStr2 = new String("ju ju ju");
 
         String sP = "HOLA MUNDO";
-        //PASAR A OTRO STRING PERO EN MINUSCULA
 
-        String sPMin = sP.toLowerCase();
+        //pasar a otro string pero en minúscula
+        String sP2 = sP.toLowerCase();
+        System.out.println(sP2);
 
-        System.out.println(sPMin);
-
-        //IMPRIMIR EL NUMERO DE LOS CARACTERES DEL STRING
-
+        //imprimir el número de caracteres del String
         System.out.println(sP.length());
 
-
-        //IMPRIMIR LO QUE HAY DESPUES DEL ESPACIO
-
-        int nPosicionEspacio = sP.indexOf(" ");
-        String sDos = sP.substring (nPosicionEspacio+1,sP.length());
-        System.out.println(sDos);
-
-        //ESCRIBIR 10 VECES UNA FRASE
-
-        for (int i = 0; i < 10; i=i+i)
-        {
-            System.out.println("NO ME ....");
+        //imprimir lo que hay después del espacio
+        System.out.println(sP.substring(sP.indexOf(" ")+1));
+        /*
+        for (int i = 0; i < 10; i++){
+            System.out.println("NO ME . . . .");
         }
-
-        //QUE ME ESCRIBA LOS NUMEROS NATURALES DEL 1 AL 15
-
-        for (int i = 0; i < 15 ; i++)
-        {
-            System.out.println(i+1);
-        }
-
-        //QUE ME ESCRIBA LOS NUMEROS NATURALES DEL 15 AL 1
-
-        for (int i = 15; i > 0 ; i--)
-        {
+        */
+        // que me escriba del 1 al 15
+        /*
+        for (int i = 1; i < 16; i++){
             System.out.println(i);
         }
+        //que lo escriba en orden inverso
+        for (int i = 15; i > 0; i--){
+            System.out.println(i);
+        }*/
 
-        //IMPRIMIR LOS NUMEROS PARES ENTRE EL 1 Y 200
-
-        for (int i = 0; i < 200 ; i--)
-        {
-            System.out.println(i+1);
+        //imprimir los pares entre 1 y 200
+        for (int i = 2; i < 201; i = i+2){
+            System.out.println(i);
         }
-
-        //
-
-       // for (int i = 0; i < 10; i=i+i)
-       // {
-            System.out.println("NO ME ....");
-      //  }
-
-       //Cuenta el numero de palabras que se repiten
-
-        String sAux [] = sNombre.split( regex " ");
-        int cont = 0;
-        for (int i = 0;1< sAux.length;i++)
-        {
-            for (int i = 0; i < sAux.length; i++){
-                if (sAux[i].equals(sAux[i]) && i != j && bAux[i]){
-                    bAux[i] = true;
-                    cont++;
-                }
-
-            }
-        }
-        System.out.println("La palabra se repite " +cont+" veces");
-
-        //que solo imprima las comas necesarios
-
-        String sComma = "";
-        for (Integer numeroI:alNumerosImpares);
-        {
-            System.out.print(sComma+numeroI);
-            sComma=",";
-        }
-
-        //nuevo ejercicio no se el nombre
-
-
     }
-} */
+}

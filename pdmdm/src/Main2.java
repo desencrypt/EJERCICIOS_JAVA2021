@@ -1,13 +1,13 @@
 public class Main2 {
     public static void main(String[] args)
     {
-        String sNombre = "albertofernandezsanchez";
-        //obtener el numero de letras "e" en un texto
-        for (int i = 0; i < sNombre.length(); i++)
+        // obtener el número de letras e de un texto
+        String sNombre = "arbertofernandezsanchez";
+        int contador = 0;
+        for (int i = 0; i<sNombre.length();i++)
         {
-
-
+            if (sNombre.charAt(i) == 'e') contador++;
         }
-
+        System.out.println(contador);
     }
 }
